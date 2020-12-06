@@ -85,7 +85,8 @@ public class Tambah_tiket extends Fragment {
                     addQuestion.setError("Isikan dengan benar");
                     addQuestion.requestFocus();
                 } else {
-                    saveTicket(UID.getUserID(),addName.getText().toString(),addAddress.getText().toString(),addEmail.getText().toString(),addQuestion.getText().toString());
+                    saveTicket(UID.getUserID(),addName.getText().toString(),addAddress.getText().toString(),addEmail.getText().toString(),
+                            addQuestion.getText().toString());
                 }
             }
         });
