@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".map.Location">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mapbox_cameraZoom="8"/>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/mapboxBlue"
+        android:text="Back"
+        android:textColor="@color/mapboxWhite" />
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="33dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorPrimary"
+        android:enabled="false"
+        android:text="Start navigation"
+        android:textColor="@color/mapboxWhite" />
+
+</FrameLayout>

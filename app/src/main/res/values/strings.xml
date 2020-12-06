@@ -1,0 +1,72 @@
+<resources>
+    <string name="mapbox_access_token">pk.eyJ1IjoibWFyY2VsbGludXNyZWRvIiwiYSI6ImNrZm1tcWo1dDFlMGsyeHBqbWVtNXpxOHoifQ.vJmOhHhXDcD5rf-gjJLmaA</string>
+
+    //splash screen
+    <string name="location">Our Location</string>
+
+    <string name="app_name">4X4 Rental Cars</string>
+    <string name="Brand">Rental Mobil</string>
+    <string name="viewAll">View All</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+        magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu
+        pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+        consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+        Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</string>
+    <string name="Featured">Featured</string>
+    <string name="explore">Explore</string>
+    <string name="read">Read More</string>
+    <string name="isiText">"Kami Menyediakan Jasa rental mobil termurah dan terpercaya di Yogyakarta,visi kami menjadikan 4X4 Rental Cars perusahaan rental mobil Yogyakarta yang terpercaya, maju, besar, modern dan memberikan kepuasan dan kemudahan kepada para customerMisi kami mampu bersaing secara globalberdasarkan kompetensi seperti pengadaan kendaraan serta pelayanan dengan standard yang terbaik sesuai dengan motto kami yaitu..."</string>
+
+    <string name="merk">Merk Mobil</string>
+    <string name="namaMobil">Nama Mobil</string>
+    <string name="fuel">Jenis Bensin</string>
+    <string name="seat">Jumlah Seat</string>
+    <string name="harga">Sewa/Hari</string>
+    <string name="daftarMobil">Daftar Mobil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search_adapter">SearchAdapter</string>
+    <string name="hello_world">Hello Square World!</string>
+
+    <string name="title_list_booked">List Booking</string>
+    <string name="title_list_ticket">Ask Us</string>
+    <string name="tambah_pesanan">Pesan Sekarang</string>
+    <string name="add">Add</string>
+    <string name="update">Update Booking</string>
+    <string name="update_tiket">Update Tiket</string>
+    <string name="add_book">Tambah Booking</string>
+    <string name="add_ticket">Tambah Ticket</string>
+    <string name="inp_nama">Input Nama</string>
+    <string name="inp_address">Input Alamat</string>
+    <string name="inp_email">Input Email</string>
+    <string name="inp_question">Input Question</string>
+    <string name="inp_age">Input Age</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="Mobil">Pilih Mobil</string>
+    <string name="Hari">Pilih Lama Pemesanan (Hari)</string>
+
+    //splash
+    <string name="slogan">Best Place to Rent a Car</string>
+
+    //Profile || Login || Register || Log Out
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="birthday">Birthday</string>
+    <string name="login">Login</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="name">Name</string>
+    <string name="question">Question</string>
+    <string name="status">Status</string>
+    <string name="logout">LogOut</string>
+    <string name="reset">Reset Password</string>
+    <string name="title_activity_profile_update">ProfileUpdate</string>
+    <string name="title_activity_ask_ticket">AskTicket</string>
+    <string name="title_activity_update_tiket">UpdateTiket</string>
+</resources>

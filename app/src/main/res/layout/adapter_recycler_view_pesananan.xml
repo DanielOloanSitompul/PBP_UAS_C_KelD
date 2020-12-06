@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_gravity="start"
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:layout_marginStart="5dp"
+        android:id="@+id/Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="start"
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:id="@+id/Alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="start"
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:layout_marginStart="5dp"
+        android:id="@+id/ModelMobil"
+        android:textColor="#666060"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="start"
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:layout_marginStart="5dp"
+        android:id="@+id/LamaSewa"
+        android:textColor="#666060"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="end"
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:layout_marginStart="5dp"
+        android:id="@+id/Harga"
+        android:textColor="#666060"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B3B2B2" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460327334300",
+    "firebase_url": "https://utspbp-745df.firebaseio.com",
+    "project_id": "utspbp-745df",
+    "storage_bucket": "utspbp-745df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460327334300:android:ac5eb39e5839b84189d859",
+        "android_client_info": {
+          "package_name": "com.danieloloan.pbp_uts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460327334300-vnfdh4h3cnjlpqhqis55livj8uogthhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu-qCi6mq1ozki5BPcOMne9nIYypiBnOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460327334300-vnfdh4h3cnjlpqhqis55livj8uogthhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

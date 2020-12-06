@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layout_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.MainActivity">
+
+        <TextView
+            android:id="@+id/explore"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/oval"
+            android:text="@string/explore"
+            android:textColor="@color/White"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/icon"
+                app:layout_constraintStart_toStartOf="@id/autoSlide"
+                app:layout_constraintEnd_toEndOf="@id/autoSlide"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Featured"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="@+id/autoSlide"
+                app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+            <ViewFlipper
+                android:id="@+id/autoSlide"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/box"
+                android:fadingEdge="horizontal"
+                app:boxBackgroundMode="none"
+                app:layout_constraintStart_toStartOf="@+id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            </ViewFlipper>
+            <RelativeLayout
+                android:id="@+id/relLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                app:layout_constraintTop_toBottomOf="@id/autoSlide"
+                app:layout_constraintStart_toStartOf="@id/autoSlide"
+                app:layout_constraintEnd_toEndOf="@id/autoSlide"
+                android:background="@drawable/shadow">
+                <TextView
+                    android:id="@+id/tv1"
+                    android:text="@string/isiText"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/White"/>
+                <TextView
+                    android:id="@+id/readMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/read"
+                    android:textColor="@color/mapboxBlue"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignEnd="@id/tv1"
+                    android:layout_alignBottom="@id/tv1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/relLay"
+                app:layout_constraintStart_toStartOf="@id/relLay">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/White"/>
+            </RelativeLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            app:itemIconTint="@color/White"
+            app:itemTextColor="@drawable/selector"
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_gravity="center|bottom"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_navigation" />
+
+        <Button
+            android:id="@+id/locationBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp"
+            android:background="@color/black"
+            android:textColor="@color/White"
+            android:text="@string/location" />
+
+    </FrameLayout>
+</ScrollView>
